@@ -1,10 +1,10 @@
 {
   "properties": {
     "connectionReferences": {
-      "shared_sharepointonline_1": {
-        "runtimeSource": "embedded",
+      "shared_sharepointonline": {
+        "runtimeSource": "invoker",
         "connection": {
-          "connectionReferenceLogicalName": "idapps_connectionSharePoint"
+          "connectionReferenceLogicalName": "kk_SharePointOnline"
         },
         "api": {
           "name": "shared_sharepointonline"
@@ -69,7 +69,7 @@
               "type": "OpenApiConnection",
               "inputs": {
                 "host": {
-                  "connectionName": "shared_sharepointonline_1",
+                  "connectionName": "shared_sharepointonline",
                   "operationId": "HttpRequest",
                   "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
                 },
@@ -146,7 +146,7 @@
               "type": "OpenApiConnection",
               "inputs": {
                 "host": {
-                  "connectionName": "shared_sharepointonline_1",
+                  "connectionName": "shared_sharepointonline",
                   "operationId": "HttpRequest",
                   "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
                 },

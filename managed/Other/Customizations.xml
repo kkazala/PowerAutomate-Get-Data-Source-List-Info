@@ -15,6 +15,7 @@
     <connectionreference connectionreferencelogicalname="kk_SharePointOnline">
       <connectionreferencedisplayname>SharePoint Online</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <description>SharePoint Online connection reference</description>
       <iscustomizable>1</iscustomizable>
       <statecode>0</statecode>
       <statuscode>1</statuscode>

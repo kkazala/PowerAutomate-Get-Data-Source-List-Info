@@ -81,11 +81,6 @@
       <RootComponent type="29" id="{031abda2-427b-ef11-ac20-002248617a98}" behavior="0" />
       <RootComponent type="29" id="{60d9a8dc-3d8e-ef11-8a69-002248db43e4}" behavior="0" />
     </RootComponents>
-    <MissingDependencies>
-      <MissingDependency>
-        <Required type="connectionreference" displayName="idapps_connectionSharePoint" solution="Active" id.connectionreferencelogicalname="idapps_connectionSharePoint" />
-        <Dependent type="29" displayName="Get Data Source List Info" id="{031abda2-427b-ef11-ac20-002248617a98}" />
-      </MissingDependency>
-    </MissingDependencies>
+    <MissingDependencies />
   </SolutionManifest>
 </ImportExportXml>
