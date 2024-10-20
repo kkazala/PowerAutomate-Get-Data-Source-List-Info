@@ -19,6 +19,8 @@ The solution consits of:
 - **3 environment variables**: v_SiteUrl, v_List and v_Library, used in the **test** flow
 - **SharePoint Online** connection reference
 
+![resources](./img/resources.png)
+
 ## Installation
 
 1. To use the workflow, import either **managed or unmanaged solution** available under [Releases](https://github.com/kkazala/PowerAutomate-Get-Data-Source-List-Info/releases). If you want to be able to edit the flow, choose **unmanaged**:
