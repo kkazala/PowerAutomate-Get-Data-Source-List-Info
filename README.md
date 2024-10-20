@@ -29,8 +29,8 @@ The solution consits of:
 
 1. After the solution is imported, configure the **Get Data Source List Info** cloud flow, to be executed as a child flow. Configured  the `run only` permissions, using the flow owner’s embedded connection:
  ![Run Only Users](./img/runOnlyUser.png) 
- 
- Click on **Edit** link and change the connection in the **Connections Used** section
+
+1. Click on **Edit** link and change the connection in the **Connections Used** section
  ![Run Only Connection](./img/runOnlyConnection.png)
 
 1. Add a [service principal](https://learn.microsoft.com/en-us/power-automate/service-principal-support) as an additional owner to ensure business continuity.
