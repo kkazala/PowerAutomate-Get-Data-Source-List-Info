@@ -28,7 +28,7 @@ The solution consits of:
 1. During the import process, update the connection references and environment variables.
 
 1. After the solution is imported, configure the **Get Data Source List Info** cloud flow, to be executed as a child flow. Configured  the `run only` permissions, using the flow owner’s embedded connection:
- ![Run Only Users](./img/runonlyuser.png) 
+ ![Run Only Users](./img/runOnlyUser.png) 
  Click on **Edit** link and change the connection in the **Connections Used** section
  ![Run Only Connection](./img/runOnlyConnection.png)
 
